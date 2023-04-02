@@ -1,0 +1,53 @@
+.navBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  background-color: #000000;
+  align-items: center;
+}
+
+.navButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+a {
+  display: inline-block;
+  color: white;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+a:after {
+  display: block;
+  content: "";
+  background-color: #000000;
+  height: 1.5px;
+  width: 0%;
+  left: 50%;
+  position: absolute;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz--transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+a:hover:after,
+a:focus:after {
+  width: 100%;
+}

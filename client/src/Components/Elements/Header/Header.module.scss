@@ -1,0 +1,27 @@
+.header {
+  font-family: "Montseratt";
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: black;
+  align-items: end;
+  max-height: 100%;
+}
+
+.bigLogo {
+  min-width: 218px;
+  filter: invert(1);
+  margin-top: 2em;
+}
+
+.beforeLogo {
+  height: 3px;
+  background-color: white;
+  width: 100%;
+}
+
+.afterLogo {
+  height: 3px;
+  background-color: white;
+  width: 100%;
+}
