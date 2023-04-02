@@ -10,13 +10,12 @@ const App = () => {
     <div>
       <Header />
       <Navigation />
-      <BottomNavBar language='РУС' currency='RUB' cartValue='100' />
-      <Title title='Футболки' />
-      <CardWrapper/>
+      <BottomNavBar language="РУС" currency="RUB" cartValue="100" />
+      <Title title="Футболки" />
+      <CardWrapper />
       <div
         style={{ backgroundColor: "green", height: "1em", width: "100%" }}
       ></div>
-      
     </div>
   )
 }

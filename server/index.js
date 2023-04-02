@@ -3,13 +3,14 @@ const express = require("express")
 const mongoose = require("mongoose")
 const cors = require("cors")
 const app = express()
+const homeRouters = require('./Routers/homeRouters')
 const PORT = process.env.PORT || 3001
 const DB_DATA = process.env.DB_DATA
 
 app.use(express.json())
 app.use(cors())
 
-app.get("/api",)
+app.use('/api', homeRouters)
 
 app.listen(PORT, async (error) => {
   try {

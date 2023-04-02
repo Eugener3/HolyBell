@@ -33,9 +33,10 @@ a {
   position: relative;
 }
 a:after {
+  margin-top: 1px;
   display: block;
   content: "";
-  background-color: #000000;
+  background-color: #ffffff;
   height: 1.5px;
   width: 0%;
   left: 50%;

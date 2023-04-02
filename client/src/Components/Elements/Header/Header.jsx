@@ -4,13 +4,13 @@ import logo from "../../../images/logo.svg"
 
 const Header = () => {
   return (
-    <headers className={styles.header}>
+    <header className={styles.header}>
       <div className={styles.beforeLogo}></div>
       <div className={styles.bigLogo}>
         <img src={logo} alt='' />
       </div>
       <div className={styles.afterLogo}></div>
-    </headers>
+    </header>
   )
 }
 

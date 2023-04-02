@@ -6,17 +6,17 @@ const Navigation = () => {
   return (
     <div className={styles.navBar}>
       <div className={styles.navButtons}>
-        <a href='#'>ФУТБОЛКИ</a>
-        <a href='#'>СВИТШОТЫ</a>
-        <a href='#'>ХУДИ</a>
-        <a href='#'>РЮКЗАКИ</a>
-        <a href='#'>ШТАНЫ/ШОРТЫ</a>
-        <a href='#'>ПОЛО</a>
-        <a href='#'>РУБАШКИ</a>
-        <a href='#'>ПИЖАМА</a>
-        <a href='#'>ШАПКИ</a>
-        <a href='#'>КЕПКИ</a>
-        <a href='#'>
+        <a href='1'>ФУТБОЛКИ</a>
+        <a href='2'>СВИТШОТЫ</a>
+        <a href='3'>ХУДИ</a>
+        <a href='4'>РЮКЗАКИ</a>
+        <a href='5'>ШТАНЫ/ШОРТЫ</a>
+        <a href='6'>ПОЛО</a>
+        <a href='7'>РУБАШКИ</a>
+        <a href='8'>ПИЖАМА</a>
+        <a href='9'>ШАПКИ</a>
+        <a href='10'>КЕПКИ</a>
+        <a href='11'>
           ТРУСЫ{" "}
           <span>
             <BiChevronDown size='11px' />
