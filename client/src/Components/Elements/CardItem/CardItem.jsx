@@ -5,7 +5,9 @@ const CardItem = props => {
   return (
     <div className={styles.cardItem}>
       <div className={styles.blackout}>
-        {/* ДОДЕЛАТЬ КНОПКУ "ОПИСАНИЕ" ПРИ НАВЕДЕНИИ НА КАРТОЧКУ */}
+        <div className={styles.buttonAboutWrapper}>
+          <button className={styles.buttonAbout}>ПОДРОБНЕЕ</button>
+        </div>
 
         <div className={styles.priceTag}>
           {props.price}
